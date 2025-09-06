@@ -15,9 +15,11 @@ class AppController extends GetxController {
   }
 
   final Rx<ThemeMode> themeMode = ThemeMode.system.obs;
+  final Rx<MapTheme> mapTheme = MapTheme.standard.obs;
 
   Future<void> get _initializeTheme async {
     themeMode.value = await _cache.retrieveThemeMode();
+    mapTheme.value = await _cache.retrieveMapTheme();
   }
 
   Future<void> toggleThemeMode() async {
@@ -33,13 +35,14 @@ class AppController extends GetxController {
     await _cache.setThemeMode(themeMode.value);
   }
 
-  Future<void> setThemeMode(final ThemeMode newThemeMode) async {
-    themeMode.value = newThemeMode;
+  Future<void> toggleMapTheme() async {
+    mapTheme.value =
+        MapTheme.values.elementAtOrNull(
+          MapTheme.values.indexOf(mapTheme.value) + 1,
+        ) ??
+        MapTheme.values.first;
 
-    await Future.delayed(const Duration(milliseconds: 480));
-    _rebuildDescendantChildren(Get.context!);
-
-    await _cache.setThemeMode(themeMode.value);
+    await _cache.setMapTheme(mapTheme.value);
   }
 
   void _rebuildDescendantChildren(final BuildContext context) {
