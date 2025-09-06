@@ -12,11 +12,19 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  mapbox_maps_flutter: ^2.10.0
   flutter_svg: ^2.2.1
   get: ^4.7.2
   hive_flutter: ^1.1.0
   path_provider: ^2.1.5
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+  geolocator: ^14.0.2
+  freezed_annotation: ^3.1.0
+  freezed: ^3.2.0
+  dio: ^5.9.0
+  pretty_dio_logger: ^1.4.0
+  dartz: ^0.10.1
+  permission_handler: ^12.0.1
 
 dev_dependencies:
   flutter_test:
@@ -39,18 +47,18 @@ flutter:
     - assets/fonts/
 
   fonts:
-    - family: Roboto
+    - family: IRANSans
       fonts:
-        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/IRANSansX-UltraLight.ttf
           weight: 200
-        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/IRANSansX-Light.ttf
           weight: 300
-        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/IRANSansX-Regular.ttf
           weight: 400
           style: normal
-        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/IRANSansX-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/IRANSansX-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/IRANSansX-Black.ttf
           weight: 900
