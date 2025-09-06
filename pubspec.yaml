@@ -1,6 +1,5 @@
 name: pos_map_app
-description: "A Demo Map Application"
-#publish_to: https://github.com/pooriaaskarim/pos_map_app
+description: 'Sample Map App'
 
 version: 1.0.0+1
 
@@ -12,7 +11,6 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  flutter_svg: ^2.2.1
   get: ^4.7.2
   hive_flutter: ^1.1.0
   path_provider: ^2.1.5

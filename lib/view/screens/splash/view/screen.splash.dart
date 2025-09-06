@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../common/widgets/app.svg_icon.dart';
 import '../../../common/widgets/app.text.dart';
 import '../controllers/controller.splash.dart';
 
