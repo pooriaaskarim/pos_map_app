@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../common/widgets/app.svg_icon.dart';
+import '../../../common/widgets/app.text.dart';
 import '../controllers/controller.splash.dart';
 
 class SplashScreen extends GetView<SplashController> {
@@ -18,7 +19,7 @@ class SplashScreen extends GetView<SplashController> {
         children: [
           Image.asset('assets/images/map_icon.png', width: 160),
 
-          Obx(() => Text(controller.splashMessage.value)),
+          Obx(() => AppText.bodyLarge(controller.splashMessage.value)),
         ],
       ),
     ),
