@@ -1,16 +1,21 @@
 # pos_map_app
+Sample Map App
+<img width="604" height="1210" alt="image" src="https://github.com/user-attachments/assets/f03e855b-6ebc-4677-8d10-f5a52647c820" />
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Head over to https://github.com/pooriaaskarim/pos_map_app/releases/download/1.0.0.1/ and install application. 
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies and App Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Get used for Route and State Management
+Hive used for caching
+Dio and Dartz used for handling network chores
+FlutterMap, GeoLocator and LatLong2 used to fulfil core functionalities
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+and other less bold packages
+
+# That's It!!
+
+Enjoy
