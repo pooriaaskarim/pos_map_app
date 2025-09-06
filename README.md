@@ -6,7 +6,7 @@ Sample Map App
 
 ## Getting Started
 
-Head over to https://github.com/pooriaaskarim/pos_map_app/releases/download/1.0.0.1/ and install application. 
+Head over to [https://github.com/pooriaaskarim/pos_map_app/releases/download/1.0.0.1/](https://github.com/pooriaaskarim/pos_map_app/releases/tag/1.0.0.1) and install application. 
 
 ## Dependencies and App Structure
 
