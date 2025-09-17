@@ -238,7 +238,7 @@ class LocationDetailsCard extends GetView<MapWidgetController> {
                                   ).show();
                                 },
 
-                                text: 'دزخواست  سفر',
+                                text: 'درخواست  سفر',
                               ),
                               Expanded(
                                 child: AppText.rich(
